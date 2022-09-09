@@ -26,13 +26,25 @@ class Contenedor {
         }
     }
 
-    async getById(id){
+    async getById(idProduct){
+        const data= await this.#leerUnArchivo()
+        if(data!==undefined){
+            let productId=data.find((product)=> product.id===idProduct)
+            console.log(productId)
+        }
     }
 
+
     async getAll(){
+        const fileContent = await this.#leerUnArchivo()
+        if(fileContent.length!==0){
+            console.log(fileContent)
+        }else{
+            console.log('No se Encuentra Ningun producto')
+        }
     }
 }
 
 const contenedor= new Contenedor ('./productos.txt')
 
-contenedor.save()
+contenedor.getAll()
