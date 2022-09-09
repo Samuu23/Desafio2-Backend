@@ -1,26 +1,24 @@
 [
-  {
-    "nombre": "Zapatillas Nike",
-    "precio": "20000",
-    "id": 1
-  },
-  {
-    "nombre": "Zapatillas Nike",
-    "precio": "20000",
-    "id": 2
-  },
-  {
-    "nombre": "Zapatillas Nike",
-    "precio": "20000",
-    "id": 3
-  },
-  {
-    "nombre": "Zapatillas Puma",
-    "precio": "20000",
+    {
+        "nombre": "Zapatillas nike",
+        "precio": "20000",
+        "id": 1
+    },
+    {
+        "nombre": "Zapatillas nike",
+        "precio": "20000",
+        "id": 3
+    },
+    {
+        "nombre": "Zapatillas nike",
+        "precio": "20000",
+        "id": 4
+    }
+]": "20000",
     "id": 4
   },
   {
-    "nombre": "Zapatillas Puma",
+    "nombre": "Zapatillas nike",
     "precio": "20000",
     "id": 5
   }
